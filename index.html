@@ -18,49 +18,105 @@
     </link>
     <!-- Font Awesome 5 -->
     <script src="https://kit.fontawesome.com/db6415d72b.js"></script>
+    
+    <!-- include bootstrap css files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- include scripts for bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <div id="splash">
-    <div id="navbar">
-      About Industries Sponsors FAQ Team
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <!-- future logo? -->
+        <!-- <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+        TAMU Datathon
+    </a>
+
+    <!-- responsive toggle button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- keep me don't delete me :) -->
+        <ul class="navbar-nav mr-auto">
+            <!-- don't ask why but I need this to keep the nav aligned right -->
+            <!-- https://www.codeply.com/go/aP0qhfNtGx/bootstrap-4-navbar-right-align -->
+        </ul>
+
+        <!-- tell me this is not the most elegant thing ever seen -->
+        <ul class="navbar-nav">
+            
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+            
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+            
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Sponsor</a>
+                </li>
+            
+        </ul>
+        
     </div>
-    <div id="splash-content">
-      TAMU Datathon Logo<br>
-      Ocboter 17-18, 2020
+</nav>
+
+    <div id="splash">
+        <div id="navbar">
+            About Industries Sponsors FAQ Team
+        </div>
+        <div id="splash-content">
+            TAMU Datathon Logo<br>
+            Ocboter 17-18, 2020
+        </div>
     </div>
-  </div>
 
-  <div id="about">
-    About Us
-  </div>
-
-  <div id="industries">
-    <div id="industries-transition-1">
+    <div id="about">
+        About Us
     </div>
-    Industries
-  </div>
 
-  <div id="sponsors">
-    Sponsors
-  </div>
-
-  <div id="faq">
-    <div id="faq-transition-1">
+    <div id="industries">
+        <div id="industries-transition-1">
+        </div>
+        Industries
     </div>
-    FAQ's
-    <div id="faq-transition-2">
+
+    <div id="sponsors">
+        Sponsors
     </div>
-  </div>
 
-  <div id="team">
-    Team
-  </div>
+    <div id="faq">
+        <div id="faq-transition-1">
+        </div>
+        FAQ's
+        <div id="faq-transition-2">
+        </div>
+    </div>
 
-  <div id="footer">
+    <div id="team">
+        Team
+    </div>
+
+    <!-- footer partial start -->
+
+<div id="footer">
     Footer
-  </div>
+</div>
+
+<!-- footer partial end -->
 
 </body>
 
