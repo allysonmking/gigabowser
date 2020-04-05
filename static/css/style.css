@@ -7144,7 +7144,7 @@ body {
   font-family: 'Work Sans', sans-serif !important; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Mono', monospace !important; }
+  font-family: "Roboto Mono", monospace !important; }
 
 .about-transition {
   background: linear-gradient(to left bottom, #f4ecf2 49.5%, white 50%);
@@ -7171,3 +7171,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .dummy-section {
   min-height: 600px; }
+
+.splash-button {
+  width: 150px;
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 45px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px; }
+
+.splash-button {
+  background-image: linear-gradient(to right, #40e495, #4fc2f8, #4fc2f8, #4286fc); }
