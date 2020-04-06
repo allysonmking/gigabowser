@@ -31,11 +31,11 @@
 <body>
 
   <div class="splash">
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-    <a class="navbar-brand" href="#">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <!-- <a class="navbar-brand" href="#">
         <img src="/static/img/logos/main.png" width="45" height="45" class="d-inline-block align-top" alt="TAMU Datathon" />
         <!-- TAMU Datathon -->
-    </a>
+    </a> -->
 
     <!-- responsive toggle button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -44,12 +44,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- keep me don't delete me :) -->
-        <ul class="navbar-nav mr-auto">
-            <!-- don't ask why but I need this to keep the nav aligned right -->
-            <!-- https://www.codeply.com/go/aP0qhfNtGx/bootstrap-4-navbar-right-align -->
-        </ul>
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto mr-auto pt-5">
             <!-- tell me this is not the most elegant thing ever made -->
             
                 <li class="nav-item active">
@@ -73,20 +68,20 @@
     </div>
 </nav>
 
-  <div id="splash-content" class="container">
-    <div class="row">
-      <div class="col-11 col-sm-9 col-md-8 col-lg-6" style="color:white;font-size:calc(25px + (35 - 25) * ((100vw - 300px) / (1600 - 300)));">
-        <img id="text-logo" src="/static/img/logos/text-logo.png" class="text">
-        Ocboter 17-18, 2020
-        <div>
-          <button type="button" class="btn-hover splash-button">Apply</button>
-          <button type="button" class="btn-hover splash-button">Sponsor</button>
-        </div>
+  <div id="splash-content" class="col-md-10 d-flex flex-column">
+    <div style="padding: 8em 0">
+      <img id="text-logo" src="/static/img/logos/text-logo.png" class="text">
+      <h2 class="text-white">Ocboter 17-18, 2020</h2>
+      <div>
+        <button type="button" class="btn-hover splash-button">Apply</button>
+        <button type="button" class="btn-hover splash-button">Sponsor</button>
       </div>
     </div>
   </div>
 </div>
 
+
+  <div class="splash-transition"></div>
 
   <div class="section about-section">
     <div id="about" class="container">
