@@ -7146,15 +7146,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Mono", monospace !important; }
 
-.navbar {
-  position: absolute !important;
-  width: 100%;
-  z-index: 100;
-  top: 0px; }
-
-.navbar-nav {
-  font-size: 1.25em !important; }
-
 .splash {
   background-image: url("/static/img/backgrounds/splash-background.svg");
   background-position: 85% 100%;
@@ -7213,7 +7204,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .splash-button {
   width: 100px;
-  font-family: "Roboto Mono";
+  font-family: 'Roboto Mono';
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -7228,3 +7219,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .splash-button {
   background-image: linear-gradient(to right, #40e495, #4fc2f8, #4fc2f8, #4286fc); }
+
+.navbar {
+  position: absolute !important;
+  width: 100%;
+  z-index: 100;
+  top: 0px; }
+
+.navbar-nav {
+  font-size: 1.25em !important; }
