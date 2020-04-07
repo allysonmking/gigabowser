@@ -7209,37 +7209,28 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 3vh; }
   .splash-btn-line .splash-btn {
     font-size: 1.25em;
-    font-weight: 400;
+    font-weight: 500;
     background-color: #666;
     color: #fff;
     cursor: pointer;
-    padding: 0.5em 1em 0.5em 1em;
-    margin-right: 1.5em;
+    padding: 0.25em 1em;
+    margin-right: 0.5em;
     text-align: center;
     border: none;
-    border-radius: 10px; }
+    border-radius: 10px;
+    transition: background-color 0.25s ease, border 0.25s ease; }
   .splash-btn-line .apply-btn {
-    background-color: #7c408a;
-    border: solid 4px #7c408a; }
-
-@keyframes hover-animation-splash-apply-btn {
-  to {
-    background-color: #fff;
-    color: #7c408a;
-    border-color: #7c408a; } }
-    .splash-btn-line .apply-btn:hover {
-      animation: 0.3s linear hover-animation-splash-apply-btn forwards; }
+    background-color: rgba(27, 19, 94, 0.5);
+    border: solid 2px #22b9a5; }
+  .splash-btn-line .apply-btn:hover {
+    background-color: rgba(34, 185, 165, 0.5);
+    border: solid 2px #22b9a5; }
   .splash-btn-line .sponsor-btn {
-    background-color: #22b9a5;
-    border: solid 4px #22b9a5; }
-
-@keyframes hover-animation-splash-sponsor-btn {
-  to {
-    background-color: #fff;
-    color: #22b9a5;
-    border-color: #22b9a5; } }
-    .splash-btn-line .sponsor-btn:hover {
-      animation: 0.3s linear hover-animation-splash-sponsor-btn forwards; }
+    background-color: rgba(27, 19, 94, 0.5);
+    border: solid 2px #7c408a; }
+  .splash-btn-line .sponsor-btn:hover {
+    background-color: rgba(124, 64, 138, 0.5);
+    border: solid 2px #7c408a; }
 
 .navbar {
   position: absolute !important;
