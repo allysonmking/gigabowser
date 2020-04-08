@@ -7176,12 +7176,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-transition {
   background: linear-gradient(to left bottom, #f4ecf2 49.5%, white 50%);
-  height: 5vh; }
+  height: 7vh; }
 
 .splash-transition {
   background: linear-gradient(to left bottom, transparent 49.5%, #f4ecf2 50%);
-  height: 5vh;
-  margin-top: -5vh; }
+  height: 7vh;
+  margin-top: -7vh; }
 
 .section {
   padding: calc(75px - (10vw * 0.5)) 0; }
