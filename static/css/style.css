@@ -7294,6 +7294,45 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(124, 64, 138, 0.5);
     border: solid 2px #7c408a; }
 
+.sponsor-section .sponsor-description {
+  font-size: 1.15em; }
+
+.sponsor-section .sponsor-img {
+  padding: 1.5em 2em; }
+
+.sponsor-section .sponsor-images .xl {
+  height: auto;
+  width: 300px;
+  max-height: 300px;
+  object-fit: contain; }
+
+.sponsor-section .sponsor-images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  overflow: auto; }
+
+.sponsor-section .sponsor-images .lg {
+  height: auto;
+  width: 300px;
+  max-height: 200px;
+  object-fit: contain; }
+
+@media (min-width: 576px) {
+  .sponsor-section .sponsor-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; }
+  .sponsor-section .sponsor-images .xl {
+    height: auto;
+    width: 100%;
+    flex: 1;
+    object-fit: contain; } }
+
 .faq-section {
   background-color: #04cfb8;
   color: #fff; }
