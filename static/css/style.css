@@ -7397,13 +7397,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .industries-section {
   background: #7dcff5; }
-  .industries-section .centerme {
-    -webkit-box-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center; }
 
 @-webkit-keyframes scroll {
   0% {
@@ -7447,9 +7440,10 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(250px * 14); }
+    width: calc(250px * 14);
+    min-height: 500px; }
   .industries-section .slide {
-    min-height: 200px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
@@ -7459,7 +7453,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: space-around; }
   .industries-section .slider-image {
     margin: 25px;
     height: 140px;
@@ -7467,7 +7461,13 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 8px 16px rgba(30, 56, 68, 0.19);
     border: white 20px solid;
     border-radius: 50%;
-    background-color: white; }
+    background-color: white;
+    transition: transform 0.8s; }
+  .industries-section .slider-image:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer; }
   .industries-section .up:nth-child(1) {
     animation: floatup 2s 0.15s ease-in-out alternate infinite; }
   .industries-section .up:nth-child(2) {
