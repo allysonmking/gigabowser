@@ -7398,55 +7398,36 @@ h1, h2, h3, h4, h5, h6 {
 .industries-section {
   background: #7dcff5; }
 
-@-webkit-keyframes scroll {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0); }
-  100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-    transform: translateX(calc(-250px * 7)); } }
-
 @keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0); }
   100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-    transform: translateX(calc(-250px * 7)); } }
+    transform: translateX(calc(-250px * 8)); } }
   .industries-section .slider {
     display: flex;
     margin: auto;
     overflow: hidden;
     position: relative;
     width: 100%; }
-  .industries-section .slider::after,
-  .industries-section .slider::before {
-    content: "";
-    height: 100px;
-    position: absolute;
-    width: 200px;
-    z-index: 2; }
-  .industries-section .slider::after {
-    right: 0;
-    top: 0;
-    -webkit-transform: rotateZ(180deg);
-    transform: rotateZ(180deg); }
-  .industries-section .slider::before {
-    left: 0;
-    top: 0; }
+  @media (max-width: 767.98px) {
+    .industries-section .slider {
+      overflow-x: auto; } }
   .industries-section .slider .slide-track {
     animation: scroll 90s linear infinite;
     display: -webkit-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(250px * 14);
     min-height: 500px; }
   .industries-section .slide {
-    height: 100%;
+    width: calc(250px * 2);
+    height: 500px;
+    flex-shrink: 0;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: center; }
   .industries-section .holder {
     width: 250px;
     height: 100%;
@@ -7462,16 +7443,17 @@ h1, h2, h3, h4, h5, h6 {
     border: white 20px solid;
     border-radius: 50%;
     background-color: white;
-    transition: transform 0.8s; }
+    transition: transform 0.25s; }
   .industries-section .slider-image:hover {
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     cursor: pointer; }
-  .industries-section .up:nth-child(1) {
+  .industries-section .up {
     animation: floatup 2s 0.15s ease-in-out alternate infinite; }
-  .industries-section .up:nth-child(2) {
-    animation: floatup 2s 0.25s ease-in-out alternate infinite; }
+  .industries-section .up:nth-child(2n) {
+    animation: floatup 2s 0.15s ease-in-out alternate infinite;
+    animation-delay: 1s; }
 
 @keyframes floatup {
   0% {
@@ -7479,7 +7461,10 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     transform: translate3d(0px, 4px, 0); } }
   .industries-section .down {
-    animation: floatup 2s 0s ease-in-out alternate infinite, floatright 4s 0.75s ease-in-out alternate infinite; }
+    animation: floatdown 2s 0s ease-in-out alternate infinite; }
+  .industries-section .down:nth-child(2n) {
+    animation: floatdown 2s 0s ease-in-out alternate infinite;
+    animation-delay: 1s; }
 
 @keyframes floatdown {
   0% {
