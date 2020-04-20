@@ -1,5 +1,3 @@
-@import "animations.scss";
-
 // Index Page Colors
 $about-background: #f4ecf2 !default;
 $about-title: #8a3c7a !default;
@@ -137,7 +135,20 @@ $default-transition-height: 7vh;
   .section-title {
     font-size: 2.5em;
     font-weight: bold;
+    display: inline-block;
   }
+}
+
+h1.section-title.sponsor-title {
+  @include offset-highlighter-effect(#b7febf);
+}
+
+h1.section-title.team-title {
+  @include offset-highlighter-effect(#a897c3);
+}
+
+.industry-modal-title {
+  @include offset-highlighter-effect(#a897c3, -0.55em);
 }
 
 .about-section {

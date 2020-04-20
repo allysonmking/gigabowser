@@ -1,0 +1,12 @@
+@mixin offset-highlighter-effect($highlight-color, $margin-top: -0.45em) {
+  &::after {
+    content: "";
+    display: block;
+    background: $highlight-color;
+    height: .55em;
+    margin-top: $margin-top;
+    margin-left: -0.15em;
+    margin-right: -0.15em;
+    z-index: -1;
+  }
+}
