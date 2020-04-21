@@ -7472,6 +7472,9 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     transform: translate3d(0px, -4px, 0); } }
 
+.industry-icon-tooltip {
+  font-size: 1.25em !important; }
+
 .sponsor-section .sponsor-description {
   font-size: 1.15em; }
 
@@ -7535,6 +7538,11 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
     height: 2px;
     background: #365740; }
+
+/* Remove box shadow from tippy tooltips */
+.tippy-box[data-theme~=light] {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05) !important;
+  padding: 0.25em 0.5em; }
 
 .slider {
   width: 105%;
