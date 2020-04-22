@@ -7516,12 +7516,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .faq-section {
   background-color: #90eee3;
-  color: #365740; }
+  color: #212529; }
   .faq-section .faq-title {
     font-weight: bold;
-    color: #365740; }
+    color: #1c855f; }
   .faq-section .question-block {
-    margin: 20px 0; }
+    margin: 30px 0; }
   .faq-section a {
     text-decoration: underline;
     color: #003fee; }
@@ -7529,7 +7529,8 @@ h1, h2, h3, h4, h5, h6 {
       color: #0231b3; }
   .faq-section .question {
     font-size: 1.4em;
-    font-weight: bolder; }
+    font-weight: bolder;
+    margin-bottom: 20px; }
   .faq-section .answer {
     font-size: 1.15em; }
   .faq-section hr {
@@ -7537,7 +7538,7 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 150px;
     border: 0;
     height: 2px;
-    background: #365740; }
+    background: #212529; }
 
 /* Remove box shadow from tippy tooltips */
 .tippy-box[data-theme~="light"] {
