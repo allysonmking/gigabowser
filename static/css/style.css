@@ -7472,6 +7472,9 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     transform: translate3d(0px, -4px, 0); } }
 
+.industry-description h6 {
+  font-size: 1.1rem; }
+
 .industry-icon-tooltip {
   font-size: 1.25em !important; }
 
