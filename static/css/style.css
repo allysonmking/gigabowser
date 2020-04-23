@@ -7340,12 +7340,14 @@ h1, h2, h3, h4, h5, h6 {
   .splash-btn-line .splash-btn:focus {
     outline: 0; }
   .splash-btn-line .apply-btn {
+    display: none;
     background-color: rgba(27, 19, 94, 0.5);
     border: solid 2px #22b9a5; }
   .splash-btn-line .apply-btn:hover {
     background-color: rgba(34, 185, 165, 0.5);
     border: solid 2px #22b9a5; }
   .splash-btn-line .sponsor-btn {
+    display: none;
     background-color: rgba(27, 19, 94, 0.5);
     border: solid 2px #7c408a; }
   .splash-btn-line .sponsor-btn:hover {
