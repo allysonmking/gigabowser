@@ -7355,20 +7355,20 @@ h1, h2, h3, h4, h5, h6 {
     border: solid 2px #7c408a; }
 
 .splash-transition {
-  background: linear-gradient(to left bottom, transparent 49.5%, #f4ecf2 50%);
+  background: linear-gradient(to left bottom, transparent 49.5%, white 50%);
   height: 7vh;
   margin-top: -7vh; }
 
 .about-transition {
-  background: linear-gradient(to left bottom, #f4ecf2 49.5%, #7dcff5 50%);
+  background: linear-gradient(to left bottom, white 49.5%, #67c5e7 50%);
   height: 7vh; }
 
 .industries-transition {
-  background: linear-gradient(to left bottom, #7dcff5 49.5%, white 50%);
+  background: linear-gradient(to left bottom, #67c5e7 49.5%, white 50%);
   height: 7vh; }
 
 .sponsors-transition {
-  background: linear-gradient(to left bottom, #fff 49.5%, #90eee3 50%);
+  background: linear-gradient(to left bottom, white 49.5%, #90eee3 50%);
   height: 7vh; }
 
 .faq-transition {
@@ -7378,27 +7378,39 @@ h1, h2, h3, h4, h5, h6 {
 .section {
   padding: 3vh 0; }
   .section .section-title {
+    padding-top: 1em;
     font-size: 2.5em;
-    font-weight: bold; }
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 0.07em; }
 
-.about-section {
-  background-color: #f4ecf2; }
-  .about-section .about-title {
-    color: #8a3c7a; }
-  .about-section .about-content {
-    flex-wrap: wrap-reverse; }
-  .about-section .about-description {
-    font-size: 1.15em;
-    line-height: 1.5; }
-  .about-section .about-img {
-    width: 100%;
-    max-width: 300px; }
+.about-section .about-title {
+  color: #8b2aa1;
+  box-shadow: 0 -0.5em 0 0 #ebcdf2 inset; }
+
+.about-section .about-content {
+  flex-wrap: wrap-reverse; }
+
+.about-section .about-header {
+  font-size: 1.15em;
+  line-height: 1.5;
+  font-weight: 600; }
+
+.about-section .about-description {
+  font-size: 1.15em;
+  line-height: 1.5; }
+
+.about-section .about-img {
+  width: 100%;
+  max-width: 300px; }
 
 .dummy-section {
   min-height: 600px; }
 
 .industries-section {
-  background: #7dcff5; }
+  background: #67c5e7; }
+  .industries-section .industries-title {
+    color: #302e75; }
 
 @keyframes scroll {
   0% {
@@ -7429,7 +7441,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: space-around; }
   .industries-section .holder {
     width: 250px;
     height: 100%;
@@ -7480,6 +7492,10 @@ h1, h2, h3, h4, h5, h6 {
 .industry-icon-tooltip {
   font-size: 1.25em !important; }
 
+.sponsor-section .sponsors-title {
+  color: #188978;
+  box-shadow: 0 -0.5em 0 0 #aff1e7 inset; }
+
 .sponsor-section .sponsor-description {
   font-size: 1.15em; }
 
@@ -7521,10 +7537,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .faq-section {
   background-color: #90eee3;
-  color: #212529; }
+  color: #2d4358; }
   .faq-section .faq-title {
     font-weight: bold;
-    color: #1c855f; }
+    color: #245a2a; }
   .faq-section .question-block {
     margin: 30px 0; }
   .faq-section a {
@@ -7543,7 +7559,11 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 150px;
     border: 0;
     height: 2px;
-    background: #212529; }
+    background: #2d4358; }
+
+.team-section .team-title {
+  color: #19159d;
+  box-shadow: 0 -0.5em 0 0 #c6c4f7 inset; }
 
 /* Remove box shadow from tippy tooltips */
 .tippy-box[data-theme~="light"] {
