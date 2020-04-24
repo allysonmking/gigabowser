@@ -7286,9 +7286,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #industry-modal .industry-modal-content .industry-modal-sponsor-img {
   height: 200px;
-  width: 250px;
+  width: 300px;
   object-fit: contain;
-  padding: 15px; }
+  padding: 2em; }
 
 .splash {
   background-image: linear-gradient(to top, #4a40ac 10%, #4a40ac01 30%), url("/static/img/backgrounds/splash-background.svg");
@@ -7500,10 +7500,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.15em; }
 
 .sponsor-section .sponsor-img {
-  padding: 1.5em 2em; }
+  padding: 2em; }
 
 .sponsor-section .sponsor-images .xl {
-  height: auto;
+  height: 200px;
   width: 300px;
   max-height: 300px;
   object-fit: contain; }
@@ -7530,7 +7530,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     flex-wrap: wrap; }
   .sponsor-section .sponsor-images .xl {
-    height: auto;
+    height: 200px;
     width: 100%;
     flex: 1;
     object-fit: contain; } }
