@@ -7571,7 +7571,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.25em 0.5em; }
 
 .modal {
-  z-index: 100000; }
+  z-index: 100000 !important; }
 
 .slider {
   width: 105%;
