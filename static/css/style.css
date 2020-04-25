@@ -7570,6 +7570,9 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05) !important;
   padding: 0.25em 0.5em; }
 
+.modal {
+  z-index: 100000; }
+
 .slider {
   width: 105%;
   height: 100%;
