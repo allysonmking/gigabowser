@@ -206,8 +206,7 @@ Now let us talk about some of those tasks that need to be completed to successfu
 - Task 4
  
 	- Teams will be responsible in enabling queries to be entered and result to be present in a rudimentary graphical user interface embedded in the webpage that host your search engine
-	- When a query is entered, the search engine should present in separate search engine web page frames of the web page the following:
-Results of your relevance models against the query – all of those that you have implemented; 	
+	- 	When a query is entered, the search engine should present the results of your relevance models against the query – all of those that you have implemented;
 
 Results of the search engine relevance against the query when clustering has been incorporated – you should present the clusters that you have obtained as well.
 
